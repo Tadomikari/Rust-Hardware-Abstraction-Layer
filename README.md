@@ -1,6 +1,6 @@
-# HAL_Project (embedded Rust)
+# Embedded Rust HAL
 
-Project of : Elsa Lhayani / Lucas Lombard / Henri Mao / Gabin Lefrançois / Benoit Hua
+School Project made by : Elzouz / Tad / Shin / Gab21 / Bnyt7
 
 ## **Overview**
 This project implements a **Hardware Abstraction Layer (HAL)** in **Rust** for the **Atmega328p** and **Cortex-M3** microcontrollers.
@@ -131,8 +131,3 @@ You can run unit tests (in software) to check the logic behind the GPIO, USART, 
   ```
 
 These tests will verify that the logic of configuring pins, reading and writing data, and sending/receiving messages is correct.
-
-[CORRECTION GPIO] (Don't hesitate to remove this part)
-Consider subdividing your project into separate modules. 
-You can only use the I/O registers of port B here (and not the C port for example).
-It would be nice to have something to prevent modifying the register in an incoherent way. For example, if I do ``` gpio.write_pin(60, PinValue::High);```, it won't bug during the compilation, but it may generate a problem on your hardware.

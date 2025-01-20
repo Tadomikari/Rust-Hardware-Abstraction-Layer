@@ -1,6 +1,6 @@
 # Embedded Rust HAL
 
-School Project made by : Elzouz / Tad / Shin / Gab21 / Bnyt7
+School Project made by : Tad / Elzouz / Shin / Gab21 / Bnyt7
 
 ## **Overview**
 This project implements a **Hardware Abstraction Layer (HAL)** in **Rust** for the **Atmega328p** and **Cortex-M3** microcontrollers.
